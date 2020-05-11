@@ -36,6 +36,8 @@ for (f=0; f<fileList.length; f++){ //loops over all images in the given director
 
     //preprocessing of the grayscale channel 3
     selectWindow("C3-"+title);
+    //need an if/else analyse here. run some sort of analysis if below certain level the set auto threshold to be something, else set it to something else. include set background to dark true 
+    
     //runs a median filter that preserves the edges of the DRG cell 
     run("Median...", "radius=25");
     //thresholds channel 3 using the Mean setting 
