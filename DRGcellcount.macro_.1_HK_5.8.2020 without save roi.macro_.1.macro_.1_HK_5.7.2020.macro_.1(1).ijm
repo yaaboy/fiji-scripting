@@ -104,5 +104,5 @@ run("Analyze Particles...", "size=0.05-Infinity clear summarize"); //define the 
 
 }
 
-
+savsAs("results", "/Users/ambiel/Desktop/Zlab materials/HUSNIYE/RNAscope images /fijiresults/" + "macroresults" + ".csv")
   	
